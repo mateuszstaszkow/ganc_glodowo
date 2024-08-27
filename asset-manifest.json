@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ganc_glodowo/static/css/main.34c036d4.css",
+    "main.js": "/ganc_glodowo/static/js/main.4aca4a32.js",
+    "static/js/453.3c1467d6.chunk.js": "/ganc_glodowo/static/js/453.3c1467d6.chunk.js",
+    "static/media/header_background.jpg": "/ganc_glodowo/static/media/header_background.83cb7366f69c830d36db.jpg",
+    "static/media/about.jpg": "/ganc_glodowo/static/media/about.46dcc105bb148b025dc1.jpg",
+    "static/media/career.jpg": "/ganc_glodowo/static/media/career.0bd31e36489bab737d31.jpg",
+    "static/media/realizacje_4.jpeg": "/ganc_glodowo/static/media/realizacje_4.071ddca053005848cfc0.jpeg",
+    "static/media/realizacje_9.jpeg": "/ganc_glodowo/static/media/realizacje_9.28133b03b10f0b338edb.jpeg",
+    "static/media/glodowo-logo.png": "/ganc_glodowo/static/media/glodowo-logo.de23433cdf89eeb09355.png",
+    "static/media/realizacje_8.jpeg": "/ganc_glodowo/static/media/realizacje_8.fe0a574062d016da4148.jpeg",
+    "static/media/realizacje_2.jpeg": "/ganc_glodowo/static/media/realizacje_2.705da87645b4d3943bb6.jpeg",
+    "static/media/realizacje_5.jpeg": "/ganc_glodowo/static/media/realizacje_5.0edb95196a4ccf94e2cb.jpeg",
+    "static/media/realizacje_7.jpeg": "/ganc_glodowo/static/media/realizacje_7.bf52b551fd854d7b31f3.jpeg",
+    "static/media/ems_logo.png": "/ganc_glodowo/static/media/ems_logo.13f29c59fb4d6fe6f16d.png",
+    "static/media/realizacje_6.jpeg": "/ganc_glodowo/static/media/realizacje_6.0d5c1180975259cddbe0.jpeg",
+    "static/media/realizacje_1.jpeg": "/ganc_glodowo/static/media/realizacje_1.be4a996165f144227c6c.jpeg",
+    "static/media/realizacje_3.jpeg": "/ganc_glodowo/static/media/realizacje_3.2a4226b658566f16a65b.jpeg",
+    "static/media/pfeuffer_logo.png": "/ganc_glodowo/static/media/pfeuffer_logo.dac9f8f3d0a59885d38d.png",
+    "static/media/coolit_logo.png": "/ganc_glodowo/static/media/coolit_logo.24fac100ca853f18cfdb.png",
+    "index.html": "/ganc_glodowo/index.html",
+    "main.34c036d4.css.map": "/ganc_glodowo/static/css/main.34c036d4.css.map",
+    "main.4aca4a32.js.map": "/ganc_glodowo/static/js/main.4aca4a32.js.map",
+    "453.3c1467d6.chunk.js.map": "/ganc_glodowo/static/js/453.3c1467d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34c036d4.css",
+    "static/js/main.4aca4a32.js"
+  ]
+}
