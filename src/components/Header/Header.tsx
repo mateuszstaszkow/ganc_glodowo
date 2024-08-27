@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 // @ts-ignore
 import logo from '../../images/glodowo-logo.png';
 import './Header.scss';
-import { Call, PhoneInTalk } from "@mui/icons-material";
+import { PhoneInTalk } from "@mui/icons-material";
 
 function Header() {
     const { i18n } = useTranslation();
