@@ -23,7 +23,7 @@ function Header() {
               <div className="flex">
                 <img src={logo} alt="Ganc Izolacje Logo" className="App-logo"/>
                 <div className="text-left">
-                  <h2 className="m-0">Głodowo</h2>
+                  <h3 className="m-0">Głodowo</h3>
                   <p className="subtitle">WAKACJE PRZEZ CAŁY ROK</p>
                 </div>
               </div>
