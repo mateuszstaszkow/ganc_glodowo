@@ -25,7 +25,7 @@
   top: 0;
   left: 0;
   right: 0;
-  width: 100vw; /* Ustaw szerokość na 100% */
+  width: 100vw;
   box-sizing: border-box;
   z-index: 1000;
   overflow-x: auto;
@@ -41,14 +41,14 @@
 }
 
 .App-nav li {
-  margin: 0 20px; /* Szerszy rozstęp między sekcjami */
+  margin: 0 20px;
 }
 
 .App-nav a {
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  transition: color 0.3s ease; /* Animacja przyciemnienia tekstu */
+  transition: color 0.3s ease;
 }
 
 .App-nav a:hover {
@@ -86,18 +86,18 @@
 }
 
 .language-switcher button {
-  margin-left: 5px; /* Dostosuj margines, aby wszystkie opcje były widoczne */
-  padding: 5px 8px; /* Mniejsze boxy */
+  margin-left: 5px;
+  padding: 5px 8px;
   border: none;
   background-color: $color-accent;
   color: white;
   cursor: pointer;
   border-radius: 3px;
   font-size: 14px;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Animacja po najechaniu */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .language-switcher button:hover {
   background-color: $color-accent;
-  transform: scale(1.1); /* Powiększenie po najechaniu */
+  transform: scale(1.1);
 }

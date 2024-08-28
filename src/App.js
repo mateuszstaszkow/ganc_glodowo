@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './i18n';
-import './App.css';
+import './App.scss';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Information from './components/Information/Information';
-import Offer from './components/Offer';
+import Plots from './components/Plots/Plots';
 import Realizations from './components/Realizations';
 import Career from './components/Career';
 import Contact from './components/Contact';
@@ -20,15 +20,15 @@ function App() {
         <div className="App-content">
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/about" element={<Information />} />
-            <Route path="/offer" element={<Offer />} />
+            <Route path="/information" element={<Information />} />
+            <Route path="/plots" element={<Plots />} />
             <Route path="/realizations" element={<Realizations />} />
             <Route path="/career" element={<Career />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
           <Home />
           <Information />
-          <Offer />
+          <Plots />
           <Realizations />
           <Career />
           <Contact />

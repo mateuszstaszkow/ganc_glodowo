@@ -1,3 +1,5 @@
+@use 'styles/constants' as *;
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 /* TODO: fix CSS: split into dedicated files */
@@ -234,14 +236,14 @@ button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #cf2e2e; /* Kolor akcentu */
+  background-color: $color-accent;
   color: white;
   cursor: pointer;
   font-size: 0.9rem;
 }
 
 button:hover {
-  background-color: #8ed1fc; /* Kolor główny */
+  background-color: $color-hover;
 }
 
 .contact-button {

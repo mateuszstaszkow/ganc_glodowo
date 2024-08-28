@@ -23,18 +23,18 @@ function Header() {
               <div className="flex">
                 <img src={logo} alt="Ganc Izolacje Logo" className="App-logo"/>
                 <div className="text-left">
-                  <h3 className="m-0">Głodowo</h3>
-                  <p className="subtitle">WAKACJE PRZEZ CAŁY ROK</p>
+                  <h3 className="m-0">{i18n.t('header.title')}</h3>
+                  <p className="subtitle uppercase">{i18n.t('header.subtitle')}</p>
                 </div>
               </div>
             </div>
           <ul className="text-sm me-4 lg:text-base">
-            <li><ScrollLink to="about" smooth={true} duration={500} offset={-80}>{i18n.t('information')}</ScrollLink></li>
-                <li><ScrollLink to="offer" smooth={true} duration={500} offset={-80}>Działki</ScrollLink></li>
-                <li><ScrollLink to="realizations" smooth={true} duration={500} offset={-80}>Dokumenty</ScrollLink></li>
-                <li><ScrollLink to="career" smooth={true} duration={500} offset={-80}>Galeria</ScrollLink></li>
-                <li><ScrollLink to="contact" smooth={true} duration={500} offset={-80}>Lokalizacja</ScrollLink></li>
-                <li><ScrollLink to="contact" smooth={true} duration={500} offset={-80}>Kontakt</ScrollLink></li>
+            <li><ScrollLink to="information" smooth={true} duration={500}>{i18n.t('information')}</ScrollLink></li>
+                <li><ScrollLink to="plots" smooth={true} duration={500}>{i18n.t('plots')}</ScrollLink></li>
+                <li><ScrollLink to="realizations" smooth={true} duration={500}>Dokumenty</ScrollLink></li>
+                <li><ScrollLink to="career" smooth={true} duration={500}>Galeria</ScrollLink></li>
+                <li><ScrollLink to="contact" smooth={true} duration={500}>Lokalizacja</ScrollLink></li>
+                <li><ScrollLink to="contact" smooth={true} duration={500}>Kontakt</ScrollLink></li>
             <li>
               <a href="tel:+48607159066" className="flex gap-2 align-items-center">
                 <PhoneInTalk className="telephone-icon"></PhoneInTalk>
