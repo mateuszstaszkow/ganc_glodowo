@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import careerImage from '../images/career.jpg';
-import AnimatedSection from "./shared/AnimatedSection/AnimatedSection"; // Upewnij się, że obrazek jest we właściwej ścieżce
+import AnimatedSection from "../shared/AnimatedSection/AnimatedSection"; // Upewnij się, że obrazek jest we właściwej ścieżce
 
 function Career() {
     const { t } = useTranslation();

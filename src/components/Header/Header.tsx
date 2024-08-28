@@ -29,7 +29,7 @@ function Header() {
               </div>
             </div>
           <ul className="text-sm me-4 lg:text-base">
-            <li><ScrollLink to="about" smooth={true} duration={500} offset={-80}>Informacje</ScrollLink></li>
+            <li><ScrollLink to="about" smooth={true} duration={500} offset={-80}>{i18n.t('information')}</ScrollLink></li>
                 <li><ScrollLink to="offer" smooth={true} duration={500} offset={-80}>Działki</ScrollLink></li>
                 <li><ScrollLink to="realizations" smooth={true} duration={500} offset={-80}>Dokumenty</ScrollLink></li>
                 <li><ScrollLink to="career" smooth={true} duration={500} offset={-80}>Galeria</ScrollLink></li>

@@ -1,0 +1,17 @@
+@use "src/styles/constants" as *;
+
+.galleryItem {
+  cursor: auto;
+  padding-bottom: 2rem;
+
+  svg {
+    $size: 6rem;
+    color: $color-accent;
+    width: $size;
+    height: $size;
+  }
+
+  p {
+    font-weight: normal;
+  }
+}

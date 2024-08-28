@@ -4,7 +4,7 @@ import './i18n';
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import About from './components/About';
+import Information from './components/Information/Information';
 import Offer from './components/Offer';
 import Realizations from './components/Realizations';
 import Career from './components/Career';
@@ -20,14 +20,14 @@ function App() {
         <div className="App-content">
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<Information />} />
             <Route path="/offer" element={<Offer />} />
             <Route path="/realizations" element={<Realizations />} />
             <Route path="/career" element={<Career />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
           <Home />
-          <About />
+          <Information />
           <Offer />
           <Realizations />
           <Career />

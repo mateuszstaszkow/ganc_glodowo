@@ -115,14 +115,13 @@ html, body {
   margin-bottom: 20px; /* Dodaj margines na dole dla akapitów */
 }
 
-.Gallery-container {
+.galleryContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-    height: 500px;
 }
 
-.Gallery {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -130,7 +129,7 @@ html, body {
   overflow: hidden;
 }
 
-.Gallery-item {
+.galleryItem {
   cursor: pointer;
   flex: 1 1 calc(33.333% - 20px);
   overflow: hidden;
@@ -138,14 +137,14 @@ html, body {
   height: calc(100% / 3 - 10px);
 }
 
-.Gallery-image {
+.galleryImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
 
-.Gallery-item:hover .Gallery-image {
+.galleryItem:hover .galleryImage {
   transform: scale(1.1);
 }
 

@@ -4,7 +4,7 @@ import Modal from 'react-modal';
 import { FaPhone, FaEnvelope } from 'react-icons/fa';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import AnimatedSection from "./shared/AnimatedSection/AnimatedSection";
+import AnimatedSection from "../shared/AnimatedSection/AnimatedSection";
 
 Modal.setAppElement('#root'); // to prevent screen readers from reading main content when modal is open
 

@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import coolitLogo from '../images/coolit_logo.png';
 import emsLogo from '../images/ems_logo.png';
 import pfeufferLogo from '../images/pfeuffer_logo.png';
-import AnimatedSection from "./shared/AnimatedSection/AnimatedSection";
+import AnimatedSection from "../shared/AnimatedSection/AnimatedSection";
 
 function Offer() {
     const { t } = useTranslation();

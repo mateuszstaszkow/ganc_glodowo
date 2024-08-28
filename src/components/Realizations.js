@@ -12,7 +12,7 @@ import image6 from '../images/realizacje_6.jpeg';
 import image7 from '../images/realizacje_7.jpeg';
 import image8 from '../images/realizacje_8.jpeg';
 import image9 from '../images/realizacje_9.jpeg';
-import AnimatedSection from "./shared/AnimatedSection/AnimatedSection";
+import AnimatedSection from "../shared/AnimatedSection/AnimatedSection";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 
@@ -79,11 +79,11 @@ function Realizations() {
                     <h2 className="section-header">{t('realizations')}</h2>
                     <AnimatedSection
                         imageComponent={
-                            <div className="Gallery-container">
-                                <div className="Gallery">
+                            <div className="galleryContainer">
+                                <div className="gallery">
                                     {images.map((image, index) => (
-                                        <div className="Gallery-item" key={index} onClick={() => openModal(index)}>
-                                            <img src={image.src} alt={image.title} className="Gallery-image"/>
+                                        <div className="galleryItem" key={index} onClick={() => openModal(index)}>
+                                            <img src={image.src} alt={image.title} className="galleryImage"/>
                                         </div>
                                     ))}
                                 </div>
