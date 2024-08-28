@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ganc_glodowo/static/css/main.646b180c.css",
-    "main.js": "/ganc_glodowo/static/js/main.e6cd2de1.js",
+    "main.css": "/ganc_glodowo/static/css/main.818809f9.css",
+    "main.js": "/ganc_glodowo/static/js/main.2eae9b56.js",
     "static/js/453.3c1467d6.chunk.js": "/ganc_glodowo/static/js/453.3c1467d6.chunk.js",
     "static/media/header_background.jpg": "/ganc_glodowo/static/media/header_background.83cb7366f69c830d36db.jpg",
     "static/media/career.jpg": "/ganc_glodowo/static/media/career.0bd31e36489bab737d31.jpg",
@@ -19,12 +19,12 @@
     "static/media/pfeuffer_logo.png": "/ganc_glodowo/static/media/pfeuffer_logo.dac9f8f3d0a59885d38d.png",
     "static/media/coolit_logo.png": "/ganc_glodowo/static/media/coolit_logo.24fac100ca853f18cfdb.png",
     "index.html": "/ganc_glodowo/index.html",
-    "main.646b180c.css.map": "/ganc_glodowo/static/css/main.646b180c.css.map",
-    "main.e6cd2de1.js.map": "/ganc_glodowo/static/js/main.e6cd2de1.js.map",
+    "main.818809f9.css.map": "/ganc_glodowo/static/css/main.818809f9.css.map",
+    "main.2eae9b56.js.map": "/ganc_glodowo/static/js/main.2eae9b56.js.map",
     "453.3c1467d6.chunk.js.map": "/ganc_glodowo/static/js/453.3c1467d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.646b180c.css",
-    "static/js/main.e6cd2de1.js"
+    "static/css/main.818809f9.css",
+    "static/js/main.2eae9b56.js"
   ]
 }
