@@ -7,7 +7,7 @@ import Home from './components/Home/Home';
 import Information from './components/Information/Information';
 import Plots from './components/Plots/Plots';
 import Documents from './components/Documents/Documents';
-import Career from './components/Career';
+import Gallery from './components/Gallery/Gallery';
 import Contact from './components/Contact';
 import CookieConsent from './components/CookieConsent';
 
@@ -23,14 +23,14 @@ function App() {
             <Route path="/information" element={<Information />} />
             <Route path="/plots" element={<Plots />} />
             <Route path="/documents" element={<Documents />} />
-            <Route path="/career" element={<Career />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
           <Home />
           <Information />
           <Plots />
           <Documents />
-          <Career />
+          <Gallery />
           <Contact />
         </div>
           <CookieConsent />

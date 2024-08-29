@@ -39,7 +39,7 @@ function Header() {
               <ScrollLink to="documents" smooth={true} duration={500}>{i18n.t('documents')}</ScrollLink>
             </li>
             <li>
-              <ScrollLink to="career" smooth={true} duration={500}>Galeria</ScrollLink>
+              <ScrollLink to="gallery" smooth={true} duration={500}>{i18n.t('gallery')}</ScrollLink>
             </li>
             <li>
               <ScrollLink to="contact" smooth={true} duration={500}>Lokalizacja</ScrollLink>
