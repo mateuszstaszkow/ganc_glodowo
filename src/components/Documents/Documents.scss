@@ -1,0 +1,45 @@
+@use "/src/styles/constants" as *;
+
+#documents {
+  h1 {
+    font-size: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+  }
+
+  .document {
+    border: 1px solid $color-border;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 190px;
+    padding: 1.5rem;
+    text-align: left;
+
+    &:hover {
+      border-color: $color-accent;
+    }
+
+    p {
+      margin: 1rem 0 0 0;
+    }
+
+    svg {
+      $size: 4rem;
+      height: $size;
+      width: $size;
+    }
+  }
+
+  .gallery {
+    $row-gap-size: 10px;
+    $column-gap-size: 40px;
+    row-gap: $row-gap-size;
+    column-gap: $column-gap-size;
+
+    .galleryItem {
+      flex: 1 1 calc(33.333% - calc(2 * #{$column-gap-size}));
+      height: calc(100% / 3 - #{$row-gap-size});
+      margin-bottom: 0;
+    }
+  }
+}

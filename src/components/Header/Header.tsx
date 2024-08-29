@@ -29,12 +29,24 @@ function Header() {
               </div>
             </div>
           <ul className="text-sm me-4 lg:text-base">
-            <li><ScrollLink to="information" smooth={true} duration={500}>{i18n.t('information')}</ScrollLink></li>
-                <li><ScrollLink to="plots" smooth={true} duration={500}>{i18n.t('plots')}</ScrollLink></li>
-                <li><ScrollLink to="realizations" smooth={true} duration={500}>Dokumenty</ScrollLink></li>
-                <li><ScrollLink to="career" smooth={true} duration={500}>Galeria</ScrollLink></li>
-                <li><ScrollLink to="contact" smooth={true} duration={500}>Lokalizacja</ScrollLink></li>
-                <li><ScrollLink to="contact" smooth={true} duration={500}>Kontakt</ScrollLink></li>
+            <li>
+              <ScrollLink to="information" smooth={true} duration={500}>{i18n.t('information')}</ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="plots" smooth={true} duration={500}>{i18n.t('plots')}</ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="documents" smooth={true} duration={500}>{i18n.t('documents')}</ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="career" smooth={true} duration={500}>Galeria</ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="contact" smooth={true} duration={500}>Lokalizacja</ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="contact" smooth={true} duration={500}>Kontakt</ScrollLink>
+            </li>
             <li>
               <a href="tel:+48607159066" className="flex gap-2 align-items-center">
                 <PhoneInTalk className="telephone-icon"></PhoneInTalk>
