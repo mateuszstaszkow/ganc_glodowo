@@ -35,21 +35,21 @@ function App() {
         </div>
           <CookieConsent />
           <footer className="py-8 mt-16">
-            <p>&copy; 2024 Ganc Izolacje</p>
-            <p className="text-gray-500 text-sm mt-2">
+            <p>&copy; 2024 Głodowo / Ganc Izolacje</p>
+            <p className="text-gray-300 text-sm mt-2">
               Developed by
               <a className="underline ms-1"
+                 href="https://mateuszstaszkow.github.io/ms-portfolio/"
+                 target="_blank"
+                 rel="noreferrer noopener">
+                Mateusz Staszków Software Development
+              </a>
+              <span className="mx-1">&</span>
+              <a className="underline"
                  href="https://github.com/podrozniasia"
                  target="_blank"
                  rel="noreferrer noopener">
                 Data Science Joanna Szwoch
-              </a>
-              <span className="mx-1">&</span>
-              <a className="underline"
-                 href="https://github.com/mateuszstaszkow"
-                 target="_blank"
-                 rel="noreferrer noopener">
-                Mateusz Staszków Software Development
               </a>
             </p>
           </footer>

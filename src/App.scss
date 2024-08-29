@@ -260,8 +260,8 @@ button:hover {
 }
 
 footer {
-  background-color: #8ed1fc; /* Kolor główny */
-  color: white;
+  background-color: $color-accent;
+  color: $color-accent-text;
   padding: 10px;
   width: 100%;
   box-sizing: border-box;
