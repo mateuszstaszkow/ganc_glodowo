@@ -1,0 +1,52 @@
+@use '/src/styles/constants' as *;
+
+
+.contactDetail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contactIcon {
+  margin-right: 10px;
+}
+
+.contactLink {
+  color: $color-accent;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.contactLink::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: $color-accent;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.contactLink:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.contactButton {
+  background-color: $color-accent;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.contactButton:hover {
+  background-color: $color-hover;
+}

@@ -109,10 +109,6 @@ html, body {
   padding: 20px;
 }
 
-.About h2, .Contact h2, .Content h2 {
-  color: #cf2e2e; /* Kolor akcentu */
-}
-
 .About p {
   margin-bottom: 20px; /* Dodaj margines na dole dla akapitów */
 }
@@ -148,73 +144,10 @@ html, body {
   transform: scale(1.1);
 }
 
-.Contact-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.Contact-info {
-  margin-top: 20px; /* Odstęp nad tekstem kontaktowym */
-}
-
-.Contact-info p {
-    font-weight: bold;
-}
-
-.contact-detail {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-.contact-icon {
-    margin-right: 10px;
-}
-
-.contact-link {
-    color: #cf2e2e; /* Kolor akcentu */
-    text-decoration: none;
-    position: relative;
-    transition: color 0.3s ease; /* Animacja przyciemnienia tekstu */
-}
-
-.contact-link:hover {
-    color: #333; /* Przyciemnienie tekstu */
-}
-
-.contact-link::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: #cf2e2e; /* Kolor akcentu */
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.contact-link:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-.Contact-map {
-  margin-bottom: 20px; /* Odstęp między mapą a tekstem adresowym */
-    border: none; /* Usuń szare obramowanie wokół mapy */
-}
-
-.Contact-address {
-  margin-top: 20px; /* Odstęp nad tekstem adresowym */
-    text-align: left;
-}
-
 label {
-  margin: 10px 0;
-  color: #cf2e2e; /* Kolor akcentu */
+  display: block;
+  font-weight: normal;
+  margin-top: 1rem;
 }
 
 input, textarea {
@@ -242,21 +175,6 @@ button {
 
 button:hover {
   background-color: $color-hover;
-}
-
-.contact-button {
-    background-color: #cf2e2e;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-}
-
-.contact-button:hover {
-    background-color: #ff6666;
 }
 
 footer {
@@ -513,18 +431,3 @@ footer {
   }
 
 }
-
-/*.aboutImage {*/
-/*  object-position: -100px;*/
-/*  height: 80vh;*/
-/*  width: auto;*/
-/*  max-width: unset;*/
-/*}*/
-
-/*@media (max-width: 1023px) {*/
-/*  .aboutImage {*/
-/*    max-width: 90vw;*/
-/*    object-position: 0;*/
-/*    height: auto;*/
-/*  }*/
-/*}*/

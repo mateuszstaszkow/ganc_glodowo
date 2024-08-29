@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { FormEventHandler, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Modal from 'react-modal';
 import { FaPhone, FaEnvelope } from 'react-icons/fa';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import AnimatedSection from "../shared/AnimatedSection/AnimatedSection";
+import AnimatedSection from "../../shared/AnimatedSection/AnimatedSection";
+import './Contact.scss';
 
 Modal.setAppElement('#root'); // to prevent screen readers from reading main content when modal is open
 
@@ -20,9 +21,9 @@ function Contact() {
     setModalIsOpen(false);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit: any = (event: SubmitEvent) => {
     event.preventDefault();
-    const form = event.target;
+    const form = event.target as any;
     const data = {
       name: form.name.value,
       email: form.email.value,
@@ -63,7 +64,6 @@ function Contact() {
                                     height="450"
                                     style={{border: 'none'}}
                                     title="Map"
-                                    allowFullScreen=""
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade">
                                 </iframe>
@@ -75,21 +75,23 @@ function Contact() {
                                     <p><strong>{t('address')}:</strong></p>
                                     <p><strong>GANC IZOLACJE SP z o.o.<br/>76-004 Sianów<br/>ul. Dworcowa 16</strong>
                                     </p>
-                                    <p className="contact-detail justify-center lg:justify-start mt-4">
-                                        <FaPhone className="contact-icon"/> <a href="tel:+48943171490"
-                                                                               className="contact-link"
-                                                                               style={{color: '#cf2e2e'}}><strong>+48 94
-                                        317 14
-                                        90</strong></a>
+                                    <p className="contactDetail justify-center lg:justify-start mt-4">
+                                      <FaPhone className="contactIcon"/>
+                                      <a href="tel:+48943171490"
+                                         className="contactLink">
+                                        <strong>+48 607 159 066</strong>
+                                      </a>
                                     </p>
-                                    <p className="contact-detail justify-center lg:justify-start">
-                                        <FaEnvelope className="contact-icon"/> <a href="mailto:biuro@ganc.com.pl"
-                                                                                  className="contact-link"
-                                                                                  style={{color: '#cf2e2e'}}><strong>biuro@ganc.com.pl</strong></a>
+                                    <p className="contactDetail justify-center lg:justify-start">
+                                      <FaEnvelope className="contactIcon"/>
+                                      <a href="mailto:biuro@ganc.com.pl"
+                                         className="contactLink">
+                                        <strong>biuro@ganc.com.pl</strong>
+                                      </a>
                                     </p>
                                     <p><strong>{t('contact_text')}</strong></p>
                                     <div className="mt-2">
-                                        <button onClick={openModal} className="contact-button">
+                                        <button onClick={openModal} className="contactButton">
                                             <strong>{t('contact_button')}</strong></button>
                                     </div>
                                 </div>
@@ -114,16 +116,21 @@ function Contact() {
                     <input type="email" name="email" required className="modal-input"/>
 
                     <label>{t('message')}</label>
-                    <textarea name="message" rows="5" required className="modal-textarea"></textarea>
+                    <textarea name="message" rows={5} required className="modal-textarea"></textarea>
 
-                    <div className="modal-buttons">
-                        <button type="submit"><strong>{t('send')}</strong></button>
-                        <button type="button" onClick={closeModal} className="modal-close-button">
-                            <strong>{t('close')}</strong></button>
-                    </div>
+                  <div className="modal-buttons">
+                    <button type="button"
+                            onClick={closeModal}
+                            className="modal-close-button">
+                      <strong>{t('close')}</strong>
+                    </button>
+                    <button type="submit">
+                      <strong>{t('send')}</strong>
+                    </button>
+                  </div>
                 </form>
             </Modal>
-            <ToastContainer/>
+          <ToastContainer/>
         </div>
 
     );

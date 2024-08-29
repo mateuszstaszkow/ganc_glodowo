@@ -8,7 +8,7 @@ import Information from './components/Information/Information';
 import Plots from './components/Plots/Plots';
 import Documents from './components/Documents/Documents';
 import Gallery from './components/Gallery/Gallery';
-import Contact from './components/Contact';
+import Contact from './components/Contact/Contact';
 import CookieConsent from './components/CookieConsent';
 
 function App() {
