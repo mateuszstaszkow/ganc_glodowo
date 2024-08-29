@@ -1,4 +1,4 @@
-import React, { FormEventHandler, useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Modal from 'react-modal';
 import { FaPhone, FaEnvelope } from 'react-icons/fa';
