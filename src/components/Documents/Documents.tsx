@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { DocumentScanner } from "@mui/icons-material";
 import './Documents.scss';
+// @ts-ignore
+import file from '../../assets/dane_dzialki.pdf';
 
 function Documents() {
     const { t } = useTranslation();
@@ -18,7 +20,9 @@ function Documents() {
                     <div className="gallery">
                       {fileIds.map((id, index) => (
                         <div className="galleryItem" key={index}>
-                          <a target="_blank">
+                          <a href={file}
+                             target="_blank"
+                             rel="noopener noreferrer">
                             <div className="document">
                               <DocumentScanner></DocumentScanner>
                               <p>{t('documents.file' + id)}</p>
