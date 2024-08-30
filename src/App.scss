@@ -273,21 +273,21 @@ footer {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #cf2e2e; /* Kolor akcentu */
+  background-color: $color-accent;
   color: white;
   cursor: pointer;
 }
 
 .cookie-consent button.accept {
-  background-color: #cf2e2e; /* Kolor akcentu */
+  background-color: $color-accent;
 }
 
 .cookie-consent button.accept:hover {
-  background-color: #ff6666; /* Jaśniejszy czerwony */
+  background-color: $color-hover;
 }
 
 .cookie-consent button.decline {
-  background-color: #a9a9a9; /* Szary */
+  background-color: #a9a9a9;
 }
 
 .cookie-consent button.decline:hover {
