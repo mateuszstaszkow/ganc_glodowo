@@ -10,6 +10,7 @@ import Documents from './components/Documents/Documents';
 import Gallery from './components/Gallery/Gallery';
 import Contact from './components/Contact/Contact';
 import CookieConsent from './components/CookieConsent';
+import Localisation from "./components/Localisation/Localisation";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/plots" element={<Plots />} />
             <Route path="/documents" element={<Documents />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/localisation" element={<Localisation/>} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
           <Home />
@@ -31,6 +33,7 @@ function App() {
           <Plots />
           <Documents />
           <Gallery />
+          <Localisation />
           <Contact />
         </div>
           <CookieConsent />

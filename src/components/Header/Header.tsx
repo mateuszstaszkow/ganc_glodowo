@@ -42,10 +42,10 @@ function Header() {
               <ScrollLink to="gallery" smooth={true} duration={500}>{i18n.t('gallery')}</ScrollLink>
             </li>
             <li>
-              <ScrollLink to="contact" smooth={true} duration={500}>Lokalizacja</ScrollLink>
+              <ScrollLink to="localisation" smooth={true} duration={500}>{i18n.t('localisation')}</ScrollLink>
             </li>
             <li>
-              <ScrollLink to="contact" smooth={true} duration={500}>Kontakt</ScrollLink>
+              <ScrollLink to="contact" smooth={true} duration={500}>{i18n.t('contact')}</ScrollLink>
             </li>
             <li>
               <a href="tel:+48607159066" className="flex gap-2 align-items-center">

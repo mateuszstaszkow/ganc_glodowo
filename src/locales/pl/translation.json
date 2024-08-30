@@ -53,6 +53,8 @@
   "contact_street": "ul. Dworcowa 16",
   "contact_modal_success": "Wiadomość wysłana.",
   "contact_modal_error": "Błąd podczas wysyłania wiadomości.",
+  "localisation": "Lokalizacja",
+  "localisation.title": "Twoja działka w otoczeniu natury",
   "name": "Imię i nazwisko:",
   "email": "Email:",
   "message": "Wiadomość:",

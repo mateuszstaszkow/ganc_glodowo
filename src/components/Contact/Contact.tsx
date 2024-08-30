@@ -52,7 +52,7 @@ function Contact() {
     return (
         <div className="Contact Section" id="contact">
             <div className="Content">
-                <h2 className="section-header">{t('contact')}</h2>
+                <h1 className="mb-20">{t('contact')}</h1>
                 <div>
                     <AnimatedSection
                         isLeft={false}
