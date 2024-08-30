@@ -9,7 +9,8 @@ function Home() {
     const t = useTranslation().i18n.t;
 
     return (
-        <Element name="home">
+        <Element id="home"
+                 name="home">
             <div className="Section relative">
                 <header className="App-header"></header>
                 <div className="homeTitle">
