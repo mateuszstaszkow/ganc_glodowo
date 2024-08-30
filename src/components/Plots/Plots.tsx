@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import './Plots.scss';
 // @ts-ignore
 import plotMap from '../../images/header_background.jpg';
+import AnimatedSection from "../../shared/AnimatedSection/AnimatedSection";
 
 function Plots() {
     const { t } = useTranslation();
@@ -14,9 +15,13 @@ function Plots() {
                 <div className="Section Content">
                     <h1>{t('plots_title')}</h1>
                     <div className="section-content">
-                        <img src={plotMap}
-                             className="plotMap"
-                             alt="Działki"/>
+                        <AnimatedSection
+                          imageComponent={
+                              <img src={plotMap}
+                                   className="plotMap"
+                                   alt="Działki"/>
+                          }
+                        ></AnimatedSection>
                     </div>
                 </div>
             </motion.div>

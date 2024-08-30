@@ -7,6 +7,7 @@ import Modal from 'react-modal';
 import image from '../../images/header_background.jpg';
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import './Gallery.scss';
+import AnimatedSection from "../../shared/AnimatedSection/AnimatedSection";
 
 
 const images = [
@@ -70,15 +71,19 @@ function Gallery() {
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
               <div className="Section Content">
                   <h1>{t('gallery.title')}</h1>
-                  <div className="galleryContainer">
-                      <div className="gallery">
-                          {images.map((image, index) => (
-                            <div className="galleryItem" key={index} onClick={() => openModal(index)}>
-                                <img src={image.src} alt={image.title} className="galleryImage"/>
+                  <AnimatedSection
+                    imageComponent={
+                        <div className="galleryContainer">
+                            <div className="gallery">
+                                {images.map((image, index) => (
+                                  <div className="galleryItem" key={index} onClick={() => openModal(index)}>
+                                      <img src={image.src} alt={image.title} className="galleryImage"/>
+                                  </div>
+                                ))}
                             </div>
-                          ))}
-                      </div>
-                  </div>
+                        </div>
+                    }
+                  ></AnimatedSection>
                   {selectedImage !== null && (
                     <Modal
                       isOpen={modalIsOpen}
