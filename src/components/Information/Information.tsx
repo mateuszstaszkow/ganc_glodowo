@@ -19,7 +19,8 @@ import AnimatedSection from "../../shared/AnimatedSection/AnimatedSection";
 function Information() {
     const { t } = useTranslation();
     return (
-        <Element name="information">
+        <Element id="information"
+                 name="information">
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
               <div className="Section Content">
                 <h3 className="uppercase mt-20">{t('information_subtitle')}</h3>

@@ -20,9 +20,15 @@ html {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
-  margin: 1rem 0;
+  margin: 8rem 0 4rem 0;
+}
+
+@media (max-width: 1023px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
 
 h2 {
@@ -71,7 +77,8 @@ html, body {
 
 @media (max-width: 1023px) {
   .Content {
-    width: auto;
+    padding: 0;
+    width: 90vw;
   }
 }
 
@@ -130,9 +137,31 @@ html, body {
 .galleryItem {
   cursor: pointer;
   flex: 1 1 calc(33.333% - 20px);
+  height: calc(100% / 3 - 10px);
   overflow: hidden;
+  padding-bottom: 2rem;
   position: relative;
-  height: calc(100% / 3 - 10px) ;
+
+  p {
+    font-weight: normal;
+  }
+
+  svg {
+    $size: 6rem;
+    color: $color-accent;
+    width: $size;
+    height: $size;
+  }
+}
+
+@media (max-width: 1023px) {
+  .gallery {
+    gap: 0;
+
+    .galleryItem {
+      flex: 1 1 100%;
+    }
+  }
 }
 
 .galleryImage {
