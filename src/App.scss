@@ -156,10 +156,10 @@ html, body {
 
 @media (max-width: 1023px) {
   .gallery {
-    gap: 0;
+    gap: 0 !important;
 
     .galleryItem {
-      flex: 1 1 100%;
+      flex: 1 1 100% !important;
     }
   }
 }
