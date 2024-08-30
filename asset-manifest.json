@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ganc_glodowo/static/css/main.00491972.css",
-    "main.js": "/ganc_glodowo/static/js/main.6dbcff87.js",
+    "main.css": "/ganc_glodowo/static/css/main.56959e70.css",
+    "main.js": "/ganc_glodowo/static/js/main.d511db15.js",
     "static/js/453.b90e4076.chunk.js": "/ganc_glodowo/static/js/453.b90e4076.chunk.js",
     "static/media/header_background.jpg": "/ganc_glodowo/static/media/header_background.83cb7366f69c830d36db.jpg",
+    "static/media/localisation-map.png": "/ganc_glodowo/static/media/localisation-map.8d45b2d1ed4440f82175.png",
     "static/media/glodowo-logo.png": "/ganc_glodowo/static/media/glodowo-logo.de23433cdf89eeb09355.png",
     "static/media/dane_dzialki.pdf": "/ganc_glodowo/static/media/dane_dzialki.c294fd2b9756785ecc56.pdf",
     "index.html": "/ganc_glodowo/index.html",
-    "main.00491972.css.map": "/ganc_glodowo/static/css/main.00491972.css.map",
-    "main.6dbcff87.js.map": "/ganc_glodowo/static/js/main.6dbcff87.js.map",
+    "main.56959e70.css.map": "/ganc_glodowo/static/css/main.56959e70.css.map",
+    "main.d511db15.js.map": "/ganc_glodowo/static/js/main.d511db15.js.map",
     "453.b90e4076.chunk.js.map": "/ganc_glodowo/static/js/453.b90e4076.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00491972.css",
-    "static/js/main.6dbcff87.js"
+    "static/css/main.56959e70.css",
+    "static/js/main.d511db15.js"
   ]
 }
