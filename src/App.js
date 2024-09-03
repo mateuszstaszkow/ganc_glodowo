@@ -38,7 +38,7 @@ function App() {
         </div>
           <CookieConsent />
           <footer className="py-8 mt-16">
-            <p>&copy; 2024 Głodowo / Ganc Izolacje</p>
+            <p>&copy; 2024 Głodowo</p>
             <p className="text-gray-300 text-sm mt-2">
               Developed by
               <a className="underline ms-1"
