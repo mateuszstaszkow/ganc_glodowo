@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import './Plots.scss';
 // @ts-ignore
-import plotMap from '../../images/header_background.jpg';
+import plotMap from '../../images/landscape/main2.JPG';
 import AnimatedSection from "../../shared/AnimatedSection/AnimatedSection";
 
 function Plots() {
