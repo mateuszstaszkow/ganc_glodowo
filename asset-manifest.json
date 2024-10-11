@@ -1,19 +1,41 @@
 {
   "files": {
-    "main.css": "/ganc_glodowo/static/css/main.aef598bf.css",
-    "main.js": "/ganc_glodowo/static/js/main.fcf38220.js",
-    "static/js/453.b90e4076.chunk.js": "/ganc_glodowo/static/js/453.b90e4076.chunk.js",
-    "static/media/header_background.jpg": "/ganc_glodowo/static/media/header_background.83cb7366f69c830d36db.jpg",
+    "main.css": "/ganc_glodowo/static/css/main.fb4b3a75.css",
+    "main.js": "/ganc_glodowo/static/js/main.8fc6fa5e.js",
+    "static/js/453.3c1467d6.chunk.js": "/ganc_glodowo/static/js/453.3c1467d6.chunk.js",
+    "static/media/landscape21.JPG": "/ganc_glodowo/static/media/landscape21.41dd797c98f3ad07572c.JPG",
+    "static/media/landscape22.JPG": "/ganc_glodowo/static/media/landscape22.ecdd7d89b4909c652cde.JPG",
+    "static/media/landscape12.JPG": "/ganc_glodowo/static/media/landscape12.de59714d3b130cebfb17.JPG",
+    "static/media/landscape20.JPG": "/ganc_glodowo/static/media/landscape20.f4dbce98d50c089a9f1a.JPG",
+    "static/media/landscape18.JPG": "/ganc_glodowo/static/media/landscape18.9473da9a33bbd5815602.JPG",
+    "static/media/landscape17.JPG": "/ganc_glodowo/static/media/landscape17.dfb215f97785ba93e78c.JPG",
+    "static/media/landscape1.JPG": "/ganc_glodowo/static/media/landscape1.ca4e24a5e92b1c1a7dbc.JPG",
+    "static/media/landscape14.JPG": "/ganc_glodowo/static/media/landscape14.15e90a620f7b3a5cb135.JPG",
+    "static/media/landscape23.JPG": "/ganc_glodowo/static/media/landscape23.50fdb12ccd5e34aafd1d.JPG",
+    "static/media/landscape15.JPG": "/ganc_glodowo/static/media/landscape15.4b36c9b7de052b95e47a.JPG",
+    "static/media/landscape24.JPG": "/ganc_glodowo/static/media/landscape24.960f5bb221ae5d81a139.JPG",
+    "static/media/landscape13.JPG": "/ganc_glodowo/static/media/landscape13.607ea7be2e8a8269141e.JPG",
+    "static/media/landscape16.JPG": "/ganc_glodowo/static/media/landscape16.135f4e630d917cadab90.JPG",
+    "static/media/landscape27.JPG": "/ganc_glodowo/static/media/landscape27.d7fd5be7a4a9f793b4b6.JPG",
+    "static/media/landscape3.JPG": "/ganc_glodowo/static/media/landscape3.87932accce1e46cd6979.JPG",
+    "static/media/main2.JPG": "/ganc_glodowo/static/media/main2.74168dac80031b3e802c.JPG",
+    "static/media/landscape5.JPG": "/ganc_glodowo/static/media/landscape5.cad1969e4648be0e0b71.JPG",
+    "static/media/landscape25.JPG": "/ganc_glodowo/static/media/landscape25.816ce6aa6ab502750d49.JPG",
+    "static/media/landscape11.JPG": "/ganc_glodowo/static/media/landscape11.7a1aa4a688660f33b28f.JPG",
+    "static/media/landscape8.JPG": "/ganc_glodowo/static/media/landscape8.b052be27acf405afbb0c.JPG",
+    "static/media/landscape10.JPG": "/ganc_glodowo/static/media/landscape10.fd980f5fae248c49e139.JPG",
+    "static/media/landscape29.JPG": "/ganc_glodowo/static/media/landscape29.37fc8129d961d5f44ab6.JPG",
+    "static/media/main-photo.JPG": "/ganc_glodowo/static/media/main-photo.9e269f147cac925f061d.JPG",
     "static/media/localisation-map.png": "/ganc_glodowo/static/media/localisation-map.8d45b2d1ed4440f82175.png",
     "static/media/glodowo-logo.png": "/ganc_glodowo/static/media/glodowo-logo.de23433cdf89eeb09355.png",
     "static/media/dane_dzialki.pdf": "/ganc_glodowo/static/media/dane_dzialki.c294fd2b9756785ecc56.pdf",
     "index.html": "/ganc_glodowo/index.html",
-    "main.aef598bf.css.map": "/ganc_glodowo/static/css/main.aef598bf.css.map",
-    "main.fcf38220.js.map": "/ganc_glodowo/static/js/main.fcf38220.js.map",
-    "453.b90e4076.chunk.js.map": "/ganc_glodowo/static/js/453.b90e4076.chunk.js.map"
+    "main.fb4b3a75.css.map": "/ganc_glodowo/static/css/main.fb4b3a75.css.map",
+    "main.8fc6fa5e.js.map": "/ganc_glodowo/static/js/main.8fc6fa5e.js.map",
+    "453.3c1467d6.chunk.js.map": "/ganc_glodowo/static/js/453.3c1467d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aef598bf.css",
-    "static/js/main.fcf38220.js"
+    "static/css/main.fb4b3a75.css",
+    "static/js/main.8fc6fa5e.js"
   ]
 }
