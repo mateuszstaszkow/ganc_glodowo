@@ -15,7 +15,7 @@ function Home() {
                 <header className="App-header">
                     <div className="video-background">
                         <iframe
-                          src="https://www.youtube.com/embed/cjSTG03iL3U?autoplay=1&mute=1&loop=1&playlist=cjSTG03iL3U&start=3"
+                          src="https://www.youtube.com/embed/cjSTG03iL3U?autoplay=1&mute=1&loop=1&playlist=cjSTG03iL3U&start=3&modestbranding=1&controls=0&showinfo=0&rel=0&iv_load_policy=3"
                           frameBorder="0"
                           allow="autoplay; encrypted-media"
                           allowFullScreen

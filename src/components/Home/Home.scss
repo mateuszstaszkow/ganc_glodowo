@@ -79,5 +79,17 @@
       }
     }
   }
+}
 
+@media (max-width: 767px) {
+  #home .App-header .video-background {
+    iframe {
+      width: 178vh;
+      height: 100vh;
+      left: 50%;
+      position: absolute;
+      top: 0;
+      transform: translateX(-50%);
+    }
+  }
 }
