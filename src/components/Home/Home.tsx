@@ -12,7 +12,18 @@ function Home() {
         <Element id="home"
                  name="home">
             <div className="Section relative">
-                <header className="App-header"></header>
+                <header className="App-header">
+                    <div className="video-background">
+                        <iframe
+                          src="https://www.youtube.com/embed/cjSTG03iL3U?autoplay=1&mute=1&loop=1&playlist=cjSTG03iL3U&start=3"
+                          frameBorder="0"
+                          allow="autoplay; encrypted-media"
+                          allowFullScreen
+                          title="Background video">
+                        </iframe>
+                        <div className="video-overlay"></div>
+                    </div>
+                </header>
                 <div className="homeTitle">
                     <h1>{t('home.title')}</h1>
                     <div className="mt-8 mb-12">
