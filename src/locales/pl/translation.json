@@ -55,5 +55,7 @@
   "address": "Adres",
   "cookie_message": "Ta strona używa plików cookies, aby zapewnić najlepszą jakość korzystania z naszej strony.",
   "cookie_accept": "Akceptuję",
-  "cookie_decline": "Odrzuć"
+  "cookie_decline": "Odrzuć",
+  "email.sent": "Zgłoszenie wysłane. Wkrótce się skontaktujemy.",
+  "email.error": "Błąd podczas wysyłania zgłoszenia."
 }

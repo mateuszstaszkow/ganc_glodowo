@@ -10,6 +10,10 @@ Lokalizacja:
 
 Youtube: https://www.youtube.com/watch?v=cjSTG03iL3U
 
+Konto gmail: dzialkiglodowo@gmail.com
+
+Serwer email: https://dashboard.emailjs.com/
+
 <hr/>
 
 Start instruction
