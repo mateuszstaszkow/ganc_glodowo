@@ -1,20 +1,5 @@
 @use '/src/styles/constants' as *;
 
-.App-logo {
-  height: 3rem;
-  width: 3rem;
-  margin-right: 20px;
-}
-
-.subtitle {
-  font-size: 0.7rem;
-  margin: -3px 0 0 0;
-}
-
-.telephone-icon {
-  color: $color-accent;
-}
-
 .App-nav {
   display: flex;
   align-items: center;
@@ -31,73 +16,4 @@
   overflow-x: auto;
   white-space: nowrap;
   padding: 1.5rem;
-}
-
-.App-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 1rem 0 0;
-  display: flex;
-}
-
-.App-nav li {
-  margin: 0 20px;
-}
-
-.App-nav a {
-  text-decoration: none;
-  cursor: pointer;
-  position: relative;
-  transition: color 0.3s ease;
-}
-
-.App-nav a:hover {
-  color: $color-accent;
-}
-
-.App-nav a::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 3px;
-  bottom: -5px;
-  left: 0;
-  background-color: $color-accent;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.App-nav a:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-.language-switcher {
-  display: flex;
-  align-items: center;
-  margin-left: -30px;
-  margin-right: 1rem;
-}
-
-.language-switcher span {
-  color: gray;
-  margin: 0 10px;
-}
-
-.language-switcher button {
-  margin-left: 5px;
-  padding: 5px 8px;
-  border: none;
-  background-color: $color-accent;
-  color: white;
-  cursor: pointer;
-  border-radius: 3px;
-  font-size: 14px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.language-switcher button:hover {
-  background-color: $color-accent;
-  transform: scale(1.1);
 }

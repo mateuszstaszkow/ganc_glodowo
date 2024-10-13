@@ -1,0 +1,93 @@
+@use '/src/styles/constants' as *;
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 1rem 0 0;
+  display: flex;
+}
+
+.header-menu li {
+  margin: 0 20px;
+}
+
+.header-menu a {
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.header-menu a:hover {
+  color: $color-accent;
+}
+
+.header-menu a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  background-color: $color-accent;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.header-menu a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  margin-left: -30px;
+  margin-right: 1rem;
+}
+
+.language-switcher span {
+  color: gray;
+  margin: 0 10px;
+}
+
+.language-switcher button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  border: none;
+  background-color: $color-accent;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.language-switcher button:hover {
+  background-color: $color-accent;
+  transform: scale(1.1);
+}
+
+.telephone-icon {
+  color: $color-accent;
+}
+
+@media only screen and (max-width: 1024px) {
+  .language-switcher {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  li {
+    border-bottom: 1px solid $color-primary-text;
+    padding-bottom: 0.5rem;
+  }
+}
