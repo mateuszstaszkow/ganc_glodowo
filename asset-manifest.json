@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ganc_glodowo/static/css/main.64029f03.css",
-    "main.js": "/ganc_glodowo/static/js/main.b02eb372.js",
+    "main.js": "/ganc_glodowo/static/js/main.fc7c9955.js",
     "static/js/453.3c1467d6.chunk.js": "/ganc_glodowo/static/js/453.3c1467d6.chunk.js",
     "static/media/landscape14.JPG": "/ganc_glodowo/static/media/landscape14.eccedbd902a6ae9f6236.JPG",
     "static/media/landscape16.JPG": "/ganc_glodowo/static/media/landscape16.2dcb86b669149efb7c07.JPG",
@@ -30,11 +30,11 @@
     "static/media/dane_dzialki.pdf": "/ganc_glodowo/static/media/dane_dzialki.c294fd2b9756785ecc56.pdf",
     "index.html": "/ganc_glodowo/index.html",
     "main.64029f03.css.map": "/ganc_glodowo/static/css/main.64029f03.css.map",
-    "main.b02eb372.js.map": "/ganc_glodowo/static/js/main.b02eb372.js.map",
+    "main.fc7c9955.js.map": "/ganc_glodowo/static/js/main.fc7c9955.js.map",
     "453.3c1467d6.chunk.js.map": "/ganc_glodowo/static/js/453.3c1467d6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64029f03.css",
-    "static/js/main.b02eb372.js"
+    "static/js/main.fc7c9955.js"
   ]
 }
